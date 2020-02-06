@@ -4,7 +4,7 @@ require 'nokogiri'
 
 class Scraper
 
-  html
+  student_hash = {}
 
   def self.scrape_index_page(index_url)
 
